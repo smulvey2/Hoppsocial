@@ -405,7 +405,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-    color: #1e1e1e!important;
+    color: white!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -413,7 +413,7 @@ header
 }
 
 .background-header .nav li a.active {
-    color: #5fb759!important;
+    color: white!important;
 }
 
 .header-area {
@@ -500,7 +500,7 @@ header
     display: block;
     font-weight: 500;
     font-size: 13px;
-    color: #7a7a7a;
+    color: white;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -524,7 +524,7 @@ header
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-    color: #5fb759!important;
+    color: white!important;
     opacity: 1;
 }
 
@@ -544,7 +544,7 @@ header
 }
 
 .background-header .main-nav .nav li.submenu:after {
-    color: #7a7a7a;
+    color: white;
 }
 
 .header-area .main-nav .nav li.submenu ul {
@@ -570,7 +570,7 @@ header
     opacity: 1;
     display: block;
     background: #fff;
-    color: #7a7a7a!important;
+    color: white!important;
     padding-left: 20px;
     height: 40px;
     line-height: 40px;
@@ -713,15 +713,15 @@ header
 }
 
 .header-area.header-sticky {
-    min-height: 80px;
+
 }
 
 .header-area.header-sticky .nav {
-    margin-top: 20px !important;
+
 }
 
 .header-area.header-sticky .nav li a.active {
-    color: #5fb759;
+    color: red;
 }
 
 @media (max-width: 1200px) {
@@ -736,7 +736,7 @@ header
 
 @media (max-width: 767px) {
     .header-area .main-nav .logo {
-        color: #1e1e1e;
+        color: white;
     }
     .header-area.header-sticky .nav li a:hover,
     .header-area.header-sticky .nav li a.active {
@@ -794,7 +794,7 @@ header
         padding: 0px !important;
         border: none !important;
         background: #f7f7f7 !important;
-        color: #191a20 !important;
+        color: white !important;
     }
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
@@ -859,7 +859,6 @@ banner
 }
 
 .img-fill img {
-    padding-top: 100px;
     position: relative;
     display: inline-block;
     max-width: none;
@@ -1115,17 +1114,18 @@ about
 */
 
 #about {
-    padding: 120px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     position: relative;
     z-index: 9;
 }
 
 #about .container {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 }
 
 #about .section-heading {
     margin-bottom: 10px;
+    text-align: 'center';
 }
 
 #about .section-heading h6 {
@@ -1133,7 +1133,6 @@ about
 }
 
 #about .service-item {
-    margin-top: 30px;
 }
 
 #about .service-item img {
@@ -1153,11 +1152,9 @@ about
 
 #about a.main-button-icon {
     display: inline-block;
-    margin-top: 60px;
 }
 
 #about .right-text-content {
-    margin-top: 40px;
 }
 
 #about .right-text-content p {
@@ -1411,7 +1408,6 @@ contact
 */
 
 #contact-us .section-heading {
-    margin-bottom: 50px;
 }
 
 #contact-us .section-heading h6 {
@@ -1419,7 +1415,6 @@ contact
 }
 
 #contact-us .left-text-content ul li {
-    margin-bottom: 30px;
 }
 
 #contact-us .left-text-content ul li {
@@ -1439,7 +1434,7 @@ contact
 }
 
 #contact {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 
 .contact-form input,
@@ -1457,13 +1452,11 @@ contact
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin-bottom: 30px;
 }
 
 .contact-form textarea {
     height: 150px;
     resize: none;
-    padding: 20px;
 }
 
 .contact-form ::-webkit-input-placeholder {
@@ -1488,9 +1481,9 @@ footer
 */
 
 footer {
-    padding: 80px 0px;
+    padding: 40px 0px;
     background: rgb(51, 155, 158);
-    background-color: #032c7c;
+    background-color: black;
 }
 
 footer .left-text-content p {
@@ -1541,7 +1534,6 @@ footer .right-text-content ul li a:hover {
 @media (max-width: 992px) {
     footer .left-text-content p {
         text-align: center;
-        margin-bottom: 30px;
     }
     footer .right-text-content {
         float: none;
@@ -1695,7 +1687,7 @@ search
     margin-top: 61px;
     margin-left: -45px;
     background-color: #5fb759;
-    border: black;
+    border: white;
 }
 
 #search .close {
@@ -1762,7 +1754,7 @@ portfolio
 }
 
 #projects .filters-content {
-    margin-top: 50px;
+    margin-top: 00px;
 }
 
 #projects .filters-content .show {
